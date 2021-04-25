@@ -1,0 +1,2 @@
+mongoexport --host localhost --port 27017 --db aidb --collection danh_sach_driveapi --type json --out  danhsachdriveapi.json
+mongoimport --db aidb  --collection  danh_sach_driveapi  --file danhsachdriveapi.json
